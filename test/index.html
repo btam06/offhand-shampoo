@@ -1,0 +1,38 @@
+<html>
+    <head>
+    </head>
+    <body>
+        <h1>Form 1</h1>
+        <form id="form1">
+            <fieldset>
+                <input type="checkbox" name="checkbox1[]" />: <label>Checkbox 1</label><br/>
+                <input type="checkbox" name="checkbox1[]" />: <label>Checkbox 2</label>
+            </fieldset>
+            <fieldset>
+                <input type="radio" name="radio1" selected="selected" data-default />: <label>Radio 1</label><br/>
+                <input type="radio" name="radio1" />: <label>Radio 2</label>
+            </fieldset>
+            <fieldset>
+                <select name="select1">
+                    <option>Select One..</option>
+                    <option>Option 1</option>
+                    <option>Option 2</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <label>
+                    Text
+                    <input name="text" />
+                </label>
+            </fieldset>
+            <fieldset>
+                <label>Textarea</label>
+                <textarea name="textarea"></textarea>
+            </fieldset>
+            <fieldset>
+                <a data-reset="#form1" href="">Reset</a>
+            </fieldset>
+        </form>
+    </body>
+    <script type="module" src="./index.js"></script>
+</html>

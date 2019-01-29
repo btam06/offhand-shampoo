@@ -1,0 +1,9 @@
+{
+    "name": "offhand-shampoo",
+    "version": "1.0.0",
+    "description": "Clear forms",
+    "author": "Avery Tam <btam06@gmail.com>",
+    "license": "MIT",
+    "repository": "btam06/offhand-shampoo",
+    "main": "lib/shampoo.js"
+}
